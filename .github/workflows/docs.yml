@@ -39,7 +39,7 @@ jobs:
       run: |
         # This assumes your book is in the root of your repository.
         # Just add a `cd` here if you need to change to another directory.
-        curl https://raw.githubusercontent.com/markdown-confluence/markdown-confluence/main/CHANGELOG.md --output src/CHANGELOG.md
+        curl https://raw.githubusercontent.com/markdown-confluence/markdown-confluence/main/CHANGELOG.md --output docs/src/CHANGELOG.md
         cd docs
         mdbook-mermaid install .
         mdbook build
