@@ -29,7 +29,5 @@ jobs:
       uses: markdown-confluence/publish-action@main
       with:
         atlassianApiToken: ${{ secrets.ATLASSIAN_API_TOKEN }}
-        configFile: /github/workspace/confluence-config.json
-        contentRoot: /github/workspace/docs/src/
 
       
